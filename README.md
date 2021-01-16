@@ -11,7 +11,7 @@ Please note, that the following codes cannot run as one script on RStudio. A cou
 After the whole data preprocessing, registration and segmentation steps were done via spm12 and MRIcroGL, the XYZ coordinates of the segmentations were extracted via MATLAB. 
 In order for this to work, spm12 must be installed on MATLAB before.
 
-This is the code used to extract the XYZ coordinates:
+This is the code used to extract the XYZ coordinates in MATLAB:
 ```
 %% load data
  [DataFileImg, DataDirectoryImg] = uigetfile('*.nii','DWI series','MultiSelect', 'off');
