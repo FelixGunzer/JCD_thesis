@@ -54,7 +54,7 @@ write.csv(Results,".csv")
 Export the labelled areas to another .csv file for further processing.
 
 ## Assignments to phylogenetic areas
-I have assigned labelled areas to phylogenetic areas in my thesis using the following script:
+I have assigned labelled areas to phylogenetic areas in my thesis using the following R script:
 As one will notice, the statistical methods and plots on which my results are based can be found later in the code.
 ```
 library(dplyr)
@@ -400,7 +400,7 @@ pp2 <- pp + scale_x_discrete(limits=c("Isocortex", "Mesocortex", "Allocortex")) 
 pp2
 ```
 ## Definition of long-range fibre tracts and assignment to Brodmann areas
-I have allocated brain lesions on MRI automatically to long-range fibre tracts by defining them using the following script:
+I have allocated brain lesions on MRI automatically to long-range fibre tracts by defining them using the following R script:
 As one will notice, the statistical methods and plots on which my results are based can be found later in the code.
 
 ```
