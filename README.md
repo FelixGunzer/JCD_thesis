@@ -7,7 +7,7 @@ The R scripts and Matlab code used for this thesis are found below.
 
 Please note, that the following codes cannot run as one script on RStudio. A couple of times .csv files were exported in the middle of a script and reformatted before they could be reread by the script!
 
-## Extraktion of XYZ coordinates from spm12 volumes
+## Extraction of XYZ coordinates from spm12 volumes
 After the whole data preprocessing, registration and segmentation steps were done via spm12 and MRIcroGL, the XYZ coordinates of the segmentations were extracted via MATLAB. 
 In order for this to work, spm12 must be installed on MATLAB before.
 
